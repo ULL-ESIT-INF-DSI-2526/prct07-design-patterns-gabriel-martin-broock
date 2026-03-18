@@ -6,7 +6,8 @@
   "scripts": {
     "start": "tsc-watch --onSuccess \"node dist/index.js\"",
     "test": "vitest",
-    "doc": "typedoc"
+    "doc": "typedoc",
+    "coverage": "vitest run --coverage"
   },
   "keywords": [],
   "author": "",
